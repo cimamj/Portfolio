@@ -54,6 +54,25 @@ const projects = [
       githubSecond: "https://github.com/cimamj/todo-app-frontend",
     },
   },
+  {
+    title: "WaterMeter API",
+    description:
+      "ASP.NET Core 8 Web API for water meter management, built on Clean Architecture principles with domain logic encapsulated in entities, EF Core + PostgreSQL for persistence and JWT authentication. Covers management of meter books, meters, readings, replacements and users.",
+    tech: [
+      ".NET 8",
+      "Clean Architecture",
+      "EF Core",
+      "PostgreSQL",
+      "JWT",
+      "Domain-Driven Design",
+      "Unit of Work",
+      "Repository Pattern",
+    ],
+    featured: true,
+    links: {
+      github: "https://github.com/cimamj/WaterMeterApp",
+    },
+  },
 ];
 
 export function ProjectsSection() {
